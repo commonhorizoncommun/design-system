@@ -1,8 +1,5 @@
 # CHC Design System
 
-[![MIT License](https://badgen.net/github/license/commonhorizoncommun/design-system)](https://github.com/commonhorizoncommun/design-system/)
-[![Latest Release](https://badgen.net/github/release/commonhorizoncommun/design-system)](https://github.com/commonhorizoncommun/design-system/releases/latest)
-
 To run the design system microsite in local development mode:
 
 ```bash
