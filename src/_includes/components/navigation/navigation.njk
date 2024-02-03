@@ -1,0 +1,22 @@
+{% block head %}
+<script src="//unpkg.com/alpinejs" defer></script>
+{% endblock %}
+<nav aria-labelledby="navigation" x-data="{open: false}">
+    <a rel="home" href="/">
+        {% include "../../../static/svg/chc.svg" %}
+        <div class="visually-hidden"><span lang="en-ca">Common Horizon</span> / <span lang="fr-ca">Horizon commun</span></div>
+    </a>
+    <a hreflang="fr-ca" href="#fr" aria-label="français">FR</a>
+    <button aria-expanded="false" x-bind:aria-expanded="open" @click="open = !open">{% include "../../../static/svg/close.svg" %}{% include "../../../static/svg/menu.svg" %}<span class="visually-hidden">menu</span></button>
+    <div class="inner">
+        <h2 id="navigation" class="visually-hidden">Menu</h2>
+        <ul role="list">
+            {% for item in params.items %}
+            <li>
+                <a href="#{{ item.title | slugify }}"{% if item.current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a hreflang="fr-ca" href="#fr" aria-label="français">FR</a>
+    </div>
+</nav>

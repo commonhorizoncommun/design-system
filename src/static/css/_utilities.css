@@ -1,0 +1,56 @@
+/* Border */
+.rounded-full {
+    border-radius: 50%;
+}
+
+/* Flex */
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Flex/Grid alignments */
+.items-center {
+    align-items: center;
+}
+
+/* Gap */
+
+/* Height */
+
+/* Margin */
+.mx-auto {
+    margin-inline: auto;
+}
+
+/* Padding */
+
+/* Width */
+
+/* Prose */
+.prose {
+    inline-size: 100%;
+    max-inline-size: 53.125rem;
+}
+
+/* Flow */
+.flow > * + * {
+    margin-block-start: var(--flow-space, 1em);
+}
+
+/* Visually Hidden */
+.visually-hidden {
+    border-width: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}

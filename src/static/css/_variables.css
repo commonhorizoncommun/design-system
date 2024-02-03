@@ -1,0 +1,40 @@
+:root {
+    /* Colors */
+    --color-purple-600: hsla(245deg 55% 45% / 100%);
+    --color-cream-100: hsla(30deg 83% 88% / 100%);
+    --color-white: #fff;
+
+    /* Link */
+
+    /* Fonts */
+    --font-display:
+        inter,
+        -apple-system,
+        blinkmacsystemfont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        cantarell,
+        ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+    --font-sans:
+        "Inter Tight",
+        -apple-system,
+        blinkmacsystemfont,
+        avenir next,
+        avenir,
+        segoe ui,
+        helvetica neue,
+        helvetica,
+        cantarell,
+        ubuntu,
+        roboto,
+        noto,
+        arial,
+        sans-serif;
+}
