@@ -18,7 +18,7 @@ function convertComponent(component) {
   // Loop the variants, returning a merged combo of component, then variant
   variants = variants.map((variant) => {
     const variantSlug = slugify(variant.title.toLowerCase());
-    const preview = variant.preview
+    const variantPreview = variant.preview
       ? variant.preview || 'default'
       : preview || 'default';
 
@@ -30,7 +30,7 @@ function convertComponent(component) {
         ...variant.context
       },
       variant: true,
-      preview,
+      variantPreview,
       originalTitle: variant.title,
       title: `${title} - ${variant.title}`,
       slug: `${parentSlug}-${variantSlug}`
