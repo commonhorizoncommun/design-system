@@ -1,16 +1,19 @@
 .pagination {
-    /* TODO */
+  /* TODO */
 }
 
 .pagination:hover {
-    /* TODO */
-}
-
-.pagination:active,
-.pagination:active:focus {
-    /* TODO */
+  /* TODO */
 }
 
 .pagination:focus {
-    /* TODO */
+  /* TODO */
+}
+
+.pagination:active {
+  /* TODO */
+}
+
+.pagination:active:focus {
+  /* TODO */
 }

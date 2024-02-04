@@ -1,229 +1,252 @@
 nav {
-    align-items: center;
-    background-color: var(--color-purple-600);
-    display: flex;
-    gap: 2.625rem;
-    height: 3.75rem;
-    justify-content: flex-start;
-    padding: 1.25rem;
+  align-items: center;
+  background-color: var(--color-purple-600);
+  display: flex;
+  gap: 2.625rem;
+  height: 3.75rem;
+  justify-content: flex-start;
+  padding: 1.25rem;
 }
 
 nav svg {
-    height: 1.875rem;
-    width: auto;
+  height: 1.875rem;
+  width: auto;
 }
 
 nav [aria-expanded] {
-    margin-inline-end: -2.625rem;
+  margin-inline-end: -2.625rem;
 }
 
 nav [aria-expanded] .menu {
-    height: 1rem;
-    width: auto;
+  height: 1rem;
+  width: auto;
 }
 
 nav [aria-expanded] .close {
-    display: none;
-    height: auto;
-    width: 1.5788rem;
+  display: none;
+  height: auto;
+  width: 1.5788rem;
 }
 
 nav [aria-expanded]:hover {
-    /* TODO */
+  /* TODO */
 }
 
-nav [aria-expanded]:focus,
+nav [aria-expanded]:focus {
+  /* TODO */
+}
+
+nav [aria-expanded]:active {
+  /* TODO */
+}
+
 nav [aria-expanded]:focus:hover {
-    /* TODO */
+  /* TODO */
 }
 
-nav [aria-expanded]:active,
 nav [aria-expanded]:active:focus {
-    /* TODO */
+  /* TODO */
 }
 
-nav [aria-expanded="true"] .menu {
-    display: none;
+nav [aria-expanded='true'] .menu {
+  display: none;
 }
 
-nav [aria-expanded="true"] .close {
-    display: block;
+nav [aria-expanded='true'] .close {
+  display: block;
 }
 
 nav .inner ul {
-    align-items: flex-end;
-    background-color: var(--color-purple-600);
-    display: none;
-    flex-direction: column;
-    gap: 1.25rem;
-    left: 0;
-    padding-block: 1.25rem;
-    padding-inline: 2.5rem;
-    position: absolute;
-    top: 3.75rem;
-    width: 100vw;
-}
-
-nav .inner a[hreflang] {
-    display: none;
-}
-
-nav [aria-expanded="true"] + .inner ul {
-    display: flex;
-}
-
-nav a {
-    color: var(--color-cream-100);
-    font-family: var(--font-display);
-    font-size: calc(16 / 16 * 1rem);
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    line-height: 1;
-    text-transform: uppercase;
+  align-items: flex-end;
+  background-color: var(--color-purple-600);
+  display: none;
+  flex-direction: column;
+  gap: 1.25rem;
+  left: 0;
+  padding-block: 1.25rem;
+  padding-inline: 2.5rem;
+  position: absolute;
+  top: 3.75rem;
+  width: 100vw;
 }
 
 nav a[hreflang] {
-    margin-inline-start: auto;
-    text-decoration: underline;
+  margin-inline-start: auto;
+  text-decoration: underline;
 }
 
-nav a[rel="home"] {
-    /* TODO */
+nav .inner a[hreflang] {
+  display: none;
 }
 
-nav a[aria-current="page"] {
-    position: relative;
+nav [aria-expanded='true'] + .inner ul {
+  display: flex;
 }
 
-nav a[aria-current="page"]::before {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 14"><path fill="%237E76DE" d="M15 7 0 0l5.524 7L0 14l15-7Z"/></svg>');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    bottom: 0.075rem;
-    content: "";
-    display: block;
-    height: 1rem;
-    left: -1.5rem;
-    position: absolute;
-    width: 1rem;
+nav a {
+  color: var(--color-cream-100);
+  font-family: var(--font-display);
+  font-size: calc(16 / 16 * 1rem);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
-nav a[rel="home"]:hover,
-nav a[rel="home"]:focus,
-nav a[rel="home"]:active {
-    /* TODO */
+nav a[rel='home'] {
+  /* TODO */
+}
+
+nav a[aria-current='page'] {
+  position: relative;
+}
+
+nav a[aria-current='page']::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 14"><path fill="%237E76DE" d="M15 7 0 0l5.524 7L0 14l15-7Z"/></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0.075rem;
+  content: '';
+  display: block;
+  height: 1rem;
+  left: -1.5rem;
+  position: absolute;
+  width: 1rem;
+}
+
+nav a[rel='home']:hover,
+nav a[rel='home']:focus,
+nav a[rel='home']:active {
+  /* TODO */
 }
 
 nav a:hover {
-    /* TODO */
+  /* TODO */
 }
 
-nav a[rel="home"]:hover {
-    /* TODO */
+nav a[rel='home']:hover {
+  /* TODO */
 }
 
-nav a:focus,
+nav a:focus {
+  /* TODO */
+}
+
+nav a:active {
+  /* TODO */
+}
+
 nav a:focus:hover {
-    /* TODO */
+  /* TODO */
 }
 
-nav a[rel="home"]:focus,
-nav a[rel="home"]:focus:hover {
-    /* TODO */
+nav a[rel='home']:focus {
+  /* TODO */
 }
 
-nav a:active,
+nav a[rel='home']:active {
+  /* TODO */
+}
+
+nav a[rel='home']:focus:hover {
+  /* TODO */
+}
+
 nav a:active:focus {
-    /* TODO */
+  /* TODO */
 }
 
-nav a[aria-current="page"]:focus::after,
-nav a[aria-current="page"]:active::after {
-    /* TODO */
+nav a[aria-current='page']:focus::after,
+nav a[aria-current='page']:active::after {
+  /* TODO */
 }
 
-nav a[rel="home"]:active,
-nav a[rel="home"]:active:focus {
-    /* TODO */
+nav a[rel='home']:active:focus {
+  /* TODO */
 }
 
 @media (min-width: 90rem) {
-    nav {
-        align-items: center;
-        display: flex;
-        height: 6.25rem;
-        justify-content: space-between;
-        padding-inline: 4.75rem;
-    }
+  nav {
+    align-items: center;
+    display: flex;
+    height: 6.25rem;
+    justify-content: space-between;
+    padding-inline: 4.75rem;
+  }
 
-    nav .inner ul {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        gap: 4.125rem;
-        height: 6.25rem;
-        left: unset;
-        padding-block: 0;
-        padding-inline: 0;
-        position: relative;
-        top: unset;
-        width: auto;
-    }
+  nav .inner ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 4.125rem;
+    height: 6.25rem;
+    left: unset;
+    padding-block: 0;
+    padding-inline: 0;
+    position: relative;
+    top: unset;
+    width: auto;
+  }
 
-    nav svg {
-        height: 3.75rem;
-    }
+  nav svg {
+    height: 3.75rem;
+  }
 
-    nav [aria-expanded] {
-        display: none;
-    }
+  nav [aria-expanded] {
+    display: none;
+  }
 
-    nav .inner {
-        align-items: center;
-        display: flex;
-        gap: 4.125rem;
-        height: 6.25rem;
-    }
+  nav .inner {
+    align-items: center;
+    display: flex;
+    gap: 4.125rem;
+    height: 6.25rem;
+  }
 
-    nav [aria-expanded="false"] + .inner ul {
-        display: flex;
-    }
+  nav [aria-expanded='false'] + .inner ul {
+    display: flex;
+  }
 
-    nav a {
-        font-size: calc(14 / 16 * 1rem);
-    }
+  nav a {
+    font-size: calc(14 / 16 * 1rem);
+  }
 
-    nav > a[hreflang] {
-        display: none;
-    }
+  nav > a[hreflang] {
+    display: none;
+  }
 
-    nav .inner a[hreflang] {
-        display: block;
-    }
+  nav .inner a[hreflang] {
+    display: block;
+  }
 
-    nav a:hover,
-    nav a:focus,
-    nav a:active {
-        /* TODO */
-    }
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    /* TODO */
+  }
 
-    nav a:hover {
-        /* TODO */
-    }
+  nav a:hover {
+    /* TODO */
+  }
 
-    nav a:focus,
-    nav a:focus:hover {
-        /* TODO */
-    }
+  nav a:focus {
+    /* TODO */
+  }
 
-    nav a[rel="home"]:focus,
-    nav a[rel="home"]:focus:hover {
-        /* TODO */
-    }
+  nav a:active {
+    /* TODO */
+  }
+  nav a:focus:hover {
+    /* TODO */
+  }
 
-    nav a:active,
-    nav a:active:focus {
-        /* TODO */
-    }
+  nav a[rel='home']:focus,
+  nav a[rel='home']:focus:hover {
+    /* TODO */
+  }
+
+  nav a:active:focus {
+    /* TODO */
+  }
 }
