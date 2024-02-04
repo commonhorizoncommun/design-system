@@ -1,7 +1,8 @@
 :root {
     /* Colors */
-    --color-purple-600: hsla(245deg 55% 45% / 100%);
     --color-cream-100: hsla(30deg 83% 88% / 100%);
+    --color-orange-500: hsla(12deg 77% 46% / 100%);
+    --color-purple-600: hsla(245deg 55% 45% / 100%);
     --color-white: #fff;
 
     /* Link */
