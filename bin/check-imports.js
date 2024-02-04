@@ -10,7 +10,7 @@ fs.readFile('./src/static/css/main.css', 'utf8', (error, data) => {
     .map((file) => path.basename(file));
 
   for (const filename of filenames) {
-    if (filename !== 'main.css' && !data.includes(`@import "${filename}";`)) {
+    if (filename !== 'main.css' && !data.includes(`@import '${filename}';`)) {
       console.error(chalk.red(`Error: "${filename}" not imported.`));
       process.exit(1);
     }
