@@ -1,1 +1,46 @@
-/* TODO */
+.bg--cream-50 {
+  background: var(--color-cream-50);
+}
+
+.bg--cream-100 {
+  background: var(--color-cream-100);
+}
+
+.bg--orange-500 {
+  background: var(--color-orange-500);
+}
+
+.bg--orange-700 {
+  background: var(--color-orange-700);
+}
+
+.bg--purple-100 {
+  background: var(--color-purple-100);
+}
+
+.bg--purple-650 {
+  background: var(--color-purple-650);
+}
+
+.bg--purple-700 {
+  background: var(--color-purple-700);
+}
+
+.bg--gradient {
+  background: linear-gradient(180deg, var(--top) 0%, var(--bottom) 100%);
+}
+
+.bg--cream-150-to-purple-100 {
+  --top: var(--color-cream-150);
+  --bottom: var(--color-purple-100);
+}
+
+.bg--purple-50-to-cream-150 {
+  --top: var(--color-purple-50);
+  --bottom: var(--color-cream-150);
+}
+
+.bg--purple-50-to-cream-50 {
+  --top: var(--color-purple-50);
+  --bottom: var(--color-cream-50);
+}

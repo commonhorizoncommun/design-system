@@ -1,52 +1,76 @@
 module.exports = {
-  title: "Typography",
+  title: 'Typography',
   context: {
-    level: "p",
-    text: "A Common Horizon member is someone who has agreed to abide by our principles, pays dues, and has received an orientation to Common Horizon either online or through a local chapter.",
+    level: 'p',
+    text: 'A Common Horizon member is someone who has agreed to abide by our principles, pays dues, and has received an orientation to Common Horizon either online or through a local chapter.'
   },
   variants: [
     {
-      title: "Header Level 1",
+      title: 'Header Level 1',
       context: {
-        level: "h1",
-        text: "Who We Are",
-      },
+        level: 'h1',
+        text: 'Who We Are'
+      }
     },
     {
-      title: "Header Level 2",
+      title: 'Header Level 2',
       context: {
-        level: "h2",
-        text: "Our Structure",
-      },
+        level: 'h2',
+        text: 'Our Structure'
+      }
     },
     {
-      title: "Header Level 3",
+      title: 'Header Level 3',
       context: {
-        level: "h3",
-        text: "Members",
-      },
+        level: 'h3',
+        text: 'Members'
+      }
     },
     {
-      title: "Subheader",
+      title: 'Subheader',
       context: {
-        level: "p",
-        levelClass: "subhead",
-        text: "We are a membership-based organization.",
-      },
+        level: 'p',
+        levelClass: 'subhead',
+        text: 'We are a membership-based organization.'
+      }
     },
     {
-      title: "Paragraph",
+      title: 'Paragraph',
       context: {
-        level: "p",
-        text: "A Common Horizon member is someone who has agreed to abide by our principles, pays dues, and has received an orientation to Common Horizon either online or through a local chapter.",
-      },
+        level: 'p',
+        text: 'A Common Horizon member is someone who has agreed to abide by our principles, pays dues, and has received an orientation to Common Horizon either online or through a local chapter.'
+      }
     },
     {
-      title: "Blockquote",
+      title: 'Paragraph (Small)',
       context: {
-        level: "blockquote",
-        text: "The best way to join Common Horizon is to attend a welcome call, chapter meeting, training, or other Common Horizon event in your community",
-      },
+        level: 'p',
+        levelClass: 'small',
+        text: 'Northern Alberta Jubilee Auditorium'
+      }
     },
-  ],
+    {
+      title: 'Paragraph (Large)',
+      context: {
+        level: 'p',
+        levelClass: 'large',
+        text: 'Our government is supposed to work for us— the people. But right now, the wealthiest corporations are calling the shots on climate.'
+      }
+    },
+    {
+      title: 'Paragraph (Meta)',
+      context: {
+        level: 'p',
+        levelClass: 'meta',
+        text: 'Northern Alberta Jubilee Auditorium'
+      }
+    },
+    {
+      title: 'Blockquote',
+      context: {
+        level: 'blockquote',
+        text: 'The best way to join Common Horizon is to attend a welcome call, chapter meeting, training, or other Common Horizon event in your community'
+      }
+    }
+  ]
 };

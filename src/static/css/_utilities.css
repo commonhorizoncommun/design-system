@@ -1,56 +1,76 @@
 /* Border */
 .rounded-full {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* Flex */
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Flex/Grid alignments */
 .items-center {
-    align-items: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 /* Gap */
+.gap-s {
+  gap: var(--size-3);
+}
+
+.gap-m {
+  gap: var(--size-5);
+}
 
 /* Height */
+.height-fluid-8 {
+  height: var(--size-fluid-8);
+}
 
 /* Margin */
 .mx-auto {
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 /* Padding */
+.p-m {
+  padding: var(--size-5);
+}
 
 /* Width */
+.width-fluid-8 {
+  width: var(--size-fluid-8);
+}
 
 /* Prose */
 .prose {
-    inline-size: 100%;
-    max-inline-size: 53.125rem;
+  inline-size: 100%;
+  max-inline-size: 53.125rem;
 }
 
 /* Flow */
 .flow > * + * {
-    margin-block-start: var(--flow-space, 1em);
+  margin-block-start: var(--flow-space, 1em);
 }
 
 /* Visually Hidden */
 .visually-hidden {
-    border-width: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+  border-width: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }

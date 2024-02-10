@@ -1,37 +1,48 @@
 <div class="flow">
-    <h2>Purple</h2>
-    <div class='flex-row gap-m'>
+
+    <h2>Cream</h2>
+    <div class='flex-row justify-center gap-m'>
         {% for color in params.colors %}
-            {% if 'purple' in color %}
+            {% if 'cream' in color %}
                 <div class='flex-col gap-s'>
-                    <div class='rounded-full width-4xl height-4xl bg-{{ color }}'></div>
-                    <div class='mx-auto'>{{ color }}</div>
+                    <div class='rounded-full width-fluid-8 height-fluid-8 bg--{{ color }}'></div>
+                    <div class='mx-auto'>{{ color | capitalize | replace('-', ' ') }}</div>
                 </div>
             {% endif %}
         {% endfor %}
     </div>
 
     <h2>Orange</h2>
-    <div class='flex-row gap-m'>
+    <div class='flex-row justify-center gap-m'>
         {% for color in params.colors %}
             {% if 'orange' in color %}
                 <div class='flex-col gap-s'>
-                    <div class='rounded-full width-4xl height-4xl bg-{{ color }}'></div>
-                    <div class='mx-auto'>{{ color }}</div>
+                    <div class='rounded-full width-fluid-8 height-fluid-8 bg--{{ color }}'></div>
+                    <div class='mx-auto'>{{ color | capitalize | replace('-', ' ') }}</div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+    <h2>Purple</h2>
+    <div class='flex-row justify-center gap-m'>
+        {% for color in params.colors %}
+            {% if 'purple' in color %}
+                <div class='flex-col gap-s'>
+                    <div class='rounded-full width-fluid-8 height-fluid-8 bg--{{ color }}'></div>
+                    <div class='mx-auto'>{{ color | capitalize | replace('-', ' ') }}</div>
                 </div>
             {% endif %}
         {% endfor %}
     </div>
 
-    <h2>Neutral</h2>
-    <div class='flex-row gap-m'>
-        {% for color in params.colors %}
-            {% if 'black' in color or 'white' in color or 'gray' in color %}
-                <div class='flex-col gap-s'>
-                    <div class='rounded-full width-4xl height-4xl bg-{{ color }}'></div>
-                    <div class='mx-auto'>{{ color }}</div>
-                </div>
-            {% endif %}
+    <h2>Gradients</h2>
+    <div class='flex-row justify-center gap-m'>
+        {% for gradient in params.gradients %}
+            <div class='flex-col gap-s'>
+                <div class='rounded-full width-fluid-8 height-fluid-8 bg--gradient bg--{{ gradient }}'></div>
+                <div class='mx-auto'>{{ gradient | capitalize | replace('-', ' ') }}</div>
+            </div>
         {% endfor %}
     </div>
 </div>
