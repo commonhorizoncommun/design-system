@@ -2,7 +2,7 @@ module.exports = {
   title: 'Banner',
   context: {
     title: 'Who We Are',
-    img: 'https://placehold.co/800x800'
+    img: '../../../static/images/march.jpg'
   },
   variants: [
     { title: 'Without image', context: { title: 'Who We Are', img: false } }

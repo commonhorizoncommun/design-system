@@ -1,6 +1,9 @@
+{% block head %}
+{% include "../../../static/svg/filters.svg" %}
+{% endblock %}
 <div class="banner">
     <h1>{{ params.title }}</h1>
     {% if params.img %}
-    <figure><img src="{{ params.img }}" alt="{{ params.imgAlt }}" /></figure>
+    <figure><img class="filter-purple-600" src="{{ params.img }}" alt="{{ params.imgAlt }}" /></figure>
     {% endif %}
 </div>

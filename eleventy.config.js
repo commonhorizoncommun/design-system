@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('./src/static/design-system');
   eleventyConfig.addPassthroughCopy('./src/static/fonts');
+  eleventyConfig.addPassthroughCopy('./src/static/images');
   eleventyConfig.addPassthroughCopy('./src/static/svg');
 
   eleventyConfig.addPairedShortcode('prettify', (content) => {
