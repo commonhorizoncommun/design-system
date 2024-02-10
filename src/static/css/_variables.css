@@ -46,6 +46,9 @@
   --size-fluid-10: clamp(20rem, 40vw, 30rem);
 
   /* Fonts */
+  --font-system: -apple-system, blinkmacsystemfont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, cantarell, ubuntu, roboto, noto, arial,
+    sans-serif;
   --font-display: inter, -apple-system, blinkmacsystemfont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, cantarell, ubuntu, roboto, noto, arial,
     sans-serif;
