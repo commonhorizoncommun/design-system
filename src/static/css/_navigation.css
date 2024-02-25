@@ -14,6 +14,7 @@ nav svg {
 }
 
 nav [aria-expanded] {
+  color: var(--color-tangerine-300);
   margin-inline-end: -2.625rem;
 }
 
@@ -26,6 +27,12 @@ nav [aria-expanded] .close {
   display: none;
   height: auto;
   width: 1.5788rem;
+}
+
+nav [aria-expanded]:hover,
+nav [aria-expanded]:active {
+  color: var(--color-cream-50);
+  transition: 0.5s color;
 }
 
 nav [aria-expanded]:hover {
@@ -123,7 +130,7 @@ nav a[rel='home']:active {
 }
 
 nav a:hover {
-  /* TODO */
+  color: var(--color-cream-50);
 }
 
 nav a[rel='home']:hover {

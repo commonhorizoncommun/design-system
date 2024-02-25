@@ -35,6 +35,10 @@ ol[role='list'] {
   list-style: none;
 }
 
+ul {
+  margin-block: 0;
+}
+
 /* Set core body defaults */
 body {
   min-height: 100vh;
