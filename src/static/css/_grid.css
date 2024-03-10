@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-inline: auto;
+  max-width: 90rem;
+  padding-inline: 1.5rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (width >= 60rem) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .column {
+    grid-column: span var(--span);
+  }
+}
