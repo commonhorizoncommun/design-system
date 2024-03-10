@@ -1,3 +1,4 @@
 module.exports = {
-  title: 'Header'
+  title: 'Header',
+  preview: 'no-padding'
 };

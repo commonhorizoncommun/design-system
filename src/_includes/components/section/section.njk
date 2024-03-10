@@ -1,0 +1,14 @@
+<section {%- if params.background %} class="{{ params.background }}"{% endif %}>
+    <div class="grid">
+    {% for index, column in params.columns %}
+        <div class="column" style="--span:{{ column.span }}">
+            <div class="blocks">
+                {{ c("block", {
+                    type: column.block.type,
+                    content: column.block.content
+                }) }}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</section>
