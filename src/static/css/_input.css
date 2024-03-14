@@ -1,0 +1,31 @@
+input[type='text'],
+input[type='search'] {
+  appearance: none;
+  height: 3.125rem;
+  border: 1px solid var(--color-orange-550);
+  border-radius: 2.5rem;
+  color: var(--color-orange-550);
+  position: relative;
+  margin-block-start: 0.75rem;
+  max-width: 25.625rem;
+  padding-inline: 1.5rem;
+  width: 100%;
+}
+
+input[type='text']:focus,
+input[type='search']:focus {
+  border-color: var(--color-orange-700);
+  color: var(--color-orange-700);
+  outline: solid 2px var(--color-orange-700);
+}
+
+input[type='search']::after {
+  content: '';
+  width: 27px;
+  height: 28px;
+  background-color: var(--color-purple-650);
+  display: block;
+  mask-position: cover;
+  mask-repeat: no-repeat;
+  mask-image: url('daat:image/svg+xml,<svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.0007 19.5007L26.0007 27.5007M22 11.5C22 17.299 17.299 22 11.5 22C5.70101 22 1 17.299 1 11.5C1 5.70101 5.70101 1 11.5 1C17.299 1 22 5.70101 22 11.5Z" stroke="black"/></svg>');
+}
