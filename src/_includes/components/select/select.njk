@@ -1,0 +1,10 @@
+
+<label for="{{ params.id }}">{{ params.label }}</label>
+<div class="select">
+    <select name="{{ params.id }}" id="{{ params.id }}">
+        <option value=""></option>
+        {% for option in params.options -%}
+        <option value="{{ option }}">{{ option }}</option>
+        {%- endfor %}
+    </select>
+</div>
