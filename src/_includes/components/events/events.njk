@@ -1,0 +1,13 @@
+<div class="events">
+    {% for event in params.events %}
+    <article class="event">
+        <figure>
+          <img alt="" src="{{ event.image }}">
+        </figure>  
+        <h3>{{ event.title }}</h3>
+        <p class="meta">{{ event.date }}</p>
+        <p class="small">{{ event.location }}</p>
+        <p class="link"><a class="cta-minimal" rel="external" href="https://example.com">Event Details</a></p>
+    </article>
+    {% endfor %}
+</div>

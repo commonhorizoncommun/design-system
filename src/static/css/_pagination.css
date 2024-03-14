@@ -1,19 +1,70 @@
 .pagination {
-  /* TODO */
+  background-color: transparent;
 }
 
-.pagination:hover {
-  /* TODO */
+.pagination ul {
+  display: flex;
+  gap: 1ch;
+  justify-content: center;
+  padding-inline-start: 0;
+  width: 100%;
 }
 
-.pagination:focus {
-  /* TODO */
+.pagination a {
+  align-items: center;
+  color: var(--color-gray-500);
+  display: flex;
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-weight: 500;
+  height: 3ch;
+  justify-content: center;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  width: 3ch;
 }
 
-.pagination:active {
-  /* TODO */
+.pagination a svg {
+  color: var(--color-orange-500);
 }
 
-.pagination:active:focus {
-  /* TODO */
+.pagination a:hover {
+  color: var(--color-orange-500);
+}
+
+.pagination a:hover svg {
+  color: var(--color-orange-700);
+}
+
+.pagination a:focus {
+  color: var(--color-orange-500);
+}
+
+.pagination a:focus svg {
+  color: var(--color-orange-700);
+}
+
+.pagination a:active {
+  color: var(--color-orange-500);
+}
+
+.pagination a:active svg {
+  color: var(--color-orange-700);
+}
+
+.pagination a:active:focus {
+  color: var(--color-orange-500);
+}
+
+.pagination a:active:focus svg {
+  color: var(--color-orange-700);
+}
+
+.pagination a[aria-current='page'] {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.pagination a[aria-current='page']::before {
+  display: none;
 }
