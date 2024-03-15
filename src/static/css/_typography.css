@@ -43,6 +43,26 @@ p.large {
   font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 1.6;
+  margin-inline: auto;
+  margin-block-start: 3rem;
+  max-width: 45rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+p.large::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 14"><path fill="%23CF3E1B" d="M15 7 0 0l5.524 7L0 14l15-7Z"/></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -3rem;
+  content: '';
+  display: block;
+  height: 1.5rem;
+  left: 50%;
+  position: absolute;
+  width: 1.5625rem;
 }
 
 p.small {
