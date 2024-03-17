@@ -1,13 +1,15 @@
 .blocks {
+  height: 100%;
   padding-block: 3.125rem;
+}
+
+.blocks:has(.map),
+.blocks:has(.block-type-image:last-child) {
+  padding-block-end: 0;
 }
 
 .blocks:has(.block-type-image:first-child) {
   padding-block-start: 0;
-}
-
-.blocks:has(.block-type-image:last-child) {
-  padding-block-end: 0;
 }
 
 @media (width >= 60rem) {
