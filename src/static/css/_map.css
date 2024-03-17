@@ -1,0 +1,7 @@
+.map {
+  aspect-ratio: 35 / 18;
+  margin-block-start: 5rem;
+  margin-inline: auto;
+  max-width: 90rem;
+  width: 100vw;
+}

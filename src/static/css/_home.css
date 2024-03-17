@@ -1,0 +1,39 @@
+.home .banner {
+  background: var(--color-cream-150);
+  background-image: var(--banner-image-url);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: block;
+  height: 31.25rem;
+  padding-block-start: 4rem;
+  text-align: center;
+}
+
+.home .banner p {
+  color: var(--color-orange-500);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home .banner p strong {
+  display: block;
+  font-size: 2.1875rem;
+  font-weight: 900;
+}
+
+@media (width>=60rem) {
+  .home .banner p,
+  .home .banner p strong {
+    font-size: 3.75rem;
+  }
+
+  .home .banner {
+    height: 38.625rem;
+  }
+}
