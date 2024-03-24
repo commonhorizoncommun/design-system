@@ -1,7 +1,14 @@
 label {
   display: block;
+  font-weight: 500;
 }
 
-[type='checkbox'] + label {
-  display: inline;
+label.checkbox,
+label.radio {
+  font-weight: 400;
+}
+
+label + .check_radio_field {
+  display: block;
+  margin-block-start: 0.75rem;
 }
