@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.0](https://github.com/commonhorizoncommun/design-system/compare/v0.1.2...v0.2.0) (2024-03-24)
+
+
+### Features
+
+* add box styles ([9e12049](https://github.com/commonhorizoncommun/design-system/commit/9e1204991dc53552b738c8a7fefe4afd8467bea5))
+
+
+### Bug Fixes
+
+* adjust some form issues ([9e12049](https://github.com/commonhorizoncommun/design-system/commit/9e1204991dc53552b738c8a7fefe4afd8467bea5))
+* box margins ([e6ba215](https://github.com/commonhorizoncommun/design-system/commit/e6ba2153068474698508314f0e61321545854383))
+* box padding for small screens ([09bc1bb](https://github.com/commonhorizoncommun/design-system/commit/09bc1bb1ef88f43385eaf25f65fc14d802123cab))
+* expand box styles ([aa0f5dd](https://github.com/commonhorizoncommun/design-system/commit/aa0f5ddbc423a8ddce6eb15614235ee38717ad08))
+
 ## [0.1.2](https://github.com/commonhorizoncommun/design-system/compare/v0.1.1...v0.1.2) (2024-03-24)
 
 
