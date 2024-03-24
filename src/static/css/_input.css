@@ -22,6 +22,10 @@
   padding-inline-start: 0;
 }
 
+.form .action_description {
+  margin-block-start: 1em;
+}
+
 .form form ul > * + * {
   margin-block-start: 1.25rem;
 }
