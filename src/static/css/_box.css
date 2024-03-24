@@ -5,6 +5,12 @@
   margin-inline: auto;
   max-width: 53.125rem;
   padding-block: 5rem 4.375rem;
-  padding-inline: 8rem;
+  padding-inline: 2.25rem;
   width: 100%;
+}
+
+@media (width >= 90rem) {
+  .box {
+    padding-inline: 8rem;
+  }
 }
