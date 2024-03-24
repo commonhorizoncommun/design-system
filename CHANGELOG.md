@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/commonhorizoncommun/design-system/compare/v0.1.1...v0.1.2) (2024-03-24)
+
+
+### Bug Fixes
+
+* handle white vs cream backgrounds for forms ([f1e6663](https://github.com/commonhorizoncommun/design-system/commit/f1e6663e72502b49b5bfde7ee69bc40b48941fd5))
+
 ## [0.1.1](https://github.com/commonhorizoncommun/design-system/compare/v0.1.0...v0.1.1) (2024-03-24)
 
 
