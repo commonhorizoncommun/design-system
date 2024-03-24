@@ -1,16 +1,40 @@
-.form h2,
 .form h4,
+.form .country_drop_wrap,
 .form #action_info,
-.form #logo_wrap {
+.form #logo_wrap,
+.form .ajax-loading,
+.form .js-edit_d_sharing_opts-close,
+.form .js-d_sharing_opts,
+.form .can_thank_you_wrap h1 {
   display: none;
 }
 
-form li {
-  list-style: none;
+.form .international_link-wrap {
+  display: none !important;
 }
 
-form li + li {
+.form {
+  padding-inline: 2.1875rem;
+}
+
+.form form ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.form form ul > * + * {
   margin-block-start: 1.25rem;
+}
+
+.form .js-error_message,
+.form li:has(.error_input) label,
+.form .error_input {
+  color: var(--color-orange-500);
+}
+
+.form .error_input {
+  border-color: var(--color-orange-500);
+  box-shadow: 0 0 0 2px var(--color-orange-500);
 }
 
 input[type='email'],
@@ -23,7 +47,6 @@ input[type='search'] {
   color: var(--color-orange-550);
   position: relative;
   margin-block-start: 0.75rem;
-  max-width: 25.625rem;
   padding-inline: 1.5rem;
   width: 100%;
 }
@@ -67,4 +90,58 @@ input[type='submit']:hover,
 input[type='submit']:active {
   background: var(--color-orange-700);
   transition: 0.5s background;
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  background-color: var(--color-cream-100);
+  border-radius: 0.3125rem;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+  width: 1.5rem;
+}
+
+input[type='checkbox']:checked {
+  background: var(--color-orange-500);
+  box-shadow:
+    0 0 0 0.125rem var(--color-orange-500) inset,
+    0 0 0 0.25rem var(--color-cream-100) inset;
+}
+
+input[type='radio'] {
+  appearance: none;
+  background-color: var(--color-cream-100);
+  border-radius: 50%;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  vertical-align: middle;
+  width: 1.5rem;
+}
+
+input[type='radio']:checked {
+  background: var(--color-orange-500);
+  box-shadow:
+    0 0 0 0.125rem var(--color-orange-500) inset,
+    0 0 0 0.25rem var(--color-cream-100) inset;
+}
+
+@media (width >= 90rem) {
+  form > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem 1.625rem;
+  }
+
+  .form form ul > * + * {
+    margin-block-start: 0;
+  }
+
+  .form_builder_output,
+  .checkbox_group_wrap,
+  li:has(input[type='submit']),
+  .js-error_message,
+  .js-d_sharing {
+    grid-column: 1 / span 2;
+  }
 }
