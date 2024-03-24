@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/commonhorizoncommun/design-system/compare/v0.2.0...v0.2.1) (2024-03-24)
+
+
+### Bug Fixes
+
+* clean up SVG roundel ([e3968b0](https://github.com/commonhorizoncommun/design-system/commit/e3968b0437b44158774b499a06bdd0f2fad90671))
+
 ## [0.2.0](https://github.com/commonhorizoncommun/design-system/compare/v0.1.2...v0.2.0) (2024-03-24)
 
 
