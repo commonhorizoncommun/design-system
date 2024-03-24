@@ -1,6 +1,6 @@
 {
   "name": "@commonhorizoncommun/design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Design system for Common Horizon / Horizon commun.",
   "scripts": {
     "build": "run-s clean eleventy",
