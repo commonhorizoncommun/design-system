@@ -46,6 +46,7 @@ input[type='text'],
 input[type='search'] {
   appearance: none;
   height: 3.125rem;
+  background: var(--color-cream-50);
   border: 1px solid var(--color-orange-550);
   border-radius: 2.5rem;
   color: var(--color-orange-550);
@@ -96,38 +97,35 @@ input[type='submit']:active {
   transition: 0.5s background;
 }
 
-input[type='checkbox'] {
-  appearance: none;
-  background-color: var(--color-cream-100);
-  border-radius: 0.3125rem;
-  height: 1.5rem;
-  margin-bottom: 0.5rem;
-  vertical-align: middle;
-  width: 1.5rem;
-}
-
-input[type='checkbox']:checked {
-  background: var(--color-orange-500);
-  box-shadow:
-    0 0 0 0.125rem var(--color-orange-500) inset,
-    0 0 0 0.25rem var(--color-cream-100) inset;
-}
-
+input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   background-color: var(--color-cream-100);
-  border-radius: 50%;
+  border: 1px solid var(--color-orange-550);
   height: 1.5rem;
   margin-bottom: 0.5rem;
   vertical-align: middle;
   width: 1.5rem;
 }
 
+input[type='checkbox'] {
+  border-radius: 0.3125rem;
+}
+
+input[type='radio'] {
+  border-radius: 50%;
+}
+
+input[type='checkbox']:focus,
+input[type='radio']:focus {
+  outline: solid 2px var(--color-orange-700);
+  border-color: var(--color-orange-700);
+}
+
+input[type='checkbox']:checked,
 input[type='radio']:checked {
-  background: var(--color-orange-500);
-  box-shadow:
-    0 0 0 0.125rem var(--color-orange-500) inset,
-    0 0 0 0.25rem var(--color-cream-100) inset;
+  background-color: var(--color-orange-500);
+  box-shadow: 0 0 0 0.125rem var(--color-cream-100) inset;
 }
 
 @media (width >= 90rem) {
@@ -148,4 +146,21 @@ input[type='radio']:checked {
   .js-d_sharing {
     grid-column: 1 / span 2;
   }
+}
+
+.bg--cream-100 input[type='checkbox'],
+.bg--cream-100 input[type='radio'] {
+  background: var(--color-white);
+}
+
+.bg--cream-100 input[type='checkbox']:checked,
+.bg--cream-100 input[type='radio']:checked {
+  background-color: var(--color-orange-500);
+  box-shadow: 0 0 0 0.125rem var(--color-white) inset;
+}
+
+.bg--cream-100 input[type='email'],
+.bg--cream-100 input[type='text'],
+.bg--cream-100 input[type='search'] {
+  background: var(--color-white);
 }
