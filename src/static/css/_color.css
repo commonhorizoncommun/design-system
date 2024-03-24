@@ -8,10 +8,12 @@
 
 .bg--orange-500 {
   background: var(--color-orange-500);
+  color: var(--color-white);
 }
 
 .bg--orange-700 {
   background: var(--color-orange-700);
+  color: var(--color-white);
 }
 
 .bg--purple-100 {
@@ -20,10 +22,12 @@
 
 .bg--purple-650 {
   background: var(--color-purple-650);
+  color: var(--color-white);
 }
 
 .bg--purple-700 {
   background: var(--color-purple-700);
+  color: var(--color-white);
 }
 
 .bg--gradient {

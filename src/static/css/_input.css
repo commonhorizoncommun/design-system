@@ -1,3 +1,19 @@
+.form h2,
+.form h4,
+.form #action_info,
+.form #logo_wrap {
+  display: none;
+}
+
+form li {
+  list-style: none;
+}
+
+form li + li {
+  margin-block-start: 1.25rem;
+}
+
+input[type='email'],
 input[type='text'],
 input[type='search'] {
   appearance: none;
@@ -12,9 +28,43 @@ input[type='search'] {
   width: 100%;
 }
 
+input[type='email']:focus,
 input[type='text']:focus,
 input[type='search']:focus {
   border-color: var(--color-orange-700);
   color: var(--color-orange-700);
   outline: solid 2px var(--color-orange-700);
+}
+
+input[type='submit'] {
+  align-items: center;
+  background: var(--color-orange-500);
+  border-radius: 1.5625rem;
+  border: 0;
+  color: var(--color-white);
+  display: inline-flex;
+  font-family: var(--font-display);
+  gap: 0.625rem;
+  height: 3.125rem;
+  letter-spacing: 0.1em;
+  padding-inline: 1.875rem;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+input[type='submit']::after {
+  background-color: var(--color-white);
+  mask: url('data:image/svg+xml,<svg width="57" height="18" viewBox="0 0 57 18" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="8.74228e-08" y1="8.5" x2="55" y2="8.5" stroke="black" stroke-width="2"/><path d="M48 1.5L55.5 9L48 16.5" stroke="black" stroke-width="2"/></svg>');
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  content: '';
+  height: 1.125rem;
+  width: 3.5625rem;
+}
+
+input[type='submit']:hover,
+input[type='submit']:active {
+  background: var(--color-orange-700);
+  transition: 0.5s background;
 }
