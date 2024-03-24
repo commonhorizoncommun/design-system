@@ -70,11 +70,12 @@ input[type='submit'] {
   border-radius: 1.5625rem;
   border: 0;
   color: var(--color-white);
-  display: inline-flex;
+  display: flex;
   font-family: var(--font-display);
   gap: 0.625rem;
   height: 3.125rem;
   letter-spacing: 0.1em;
+  margin-inline: auto;
   padding-inline: 1.875rem;
   position: relative;
   text-decoration: none;
@@ -143,7 +144,8 @@ input[type='radio']:checked {
   .checkbox_group_wrap,
   li:has(input[type='submit']),
   .js-error_message,
-  .js-d_sharing {
+  .js-d_sharing,
+  .js-fb-multipleradios {
     grid-column: 1 / span 2;
   }
 }
