@@ -1,0 +1,49 @@
+.people {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-12);
+  padding-inline-start: 0;
+}
+
+.person {
+  --text-accent-color: var(--color-purple-600);
+}
+
+.person .h3 {
+  letter-spacing: 0;
+  margin-block-start: var(--size-5);
+  text-transform: none;
+}
+
+.person .meta {
+  margin-block-start: var(--size-2);
+}
+
+.person .small {
+  margin-block-start: var(--size-3);
+}
+
+@media (width >= 40rem) {
+  .people {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .person {
+    width: calc((100% - var(--size-12)) / 2);
+  }
+}
+
+@media (width >= 60rem) {
+  .person {
+    width: calc((100% - (2 * var(--size-12))) / 3);
+  }
+}
+
+@media (width >= 90rem) {
+  .person {
+    width: calc((100% - (3 * var(--size-12))) / 4);
+  }
+}

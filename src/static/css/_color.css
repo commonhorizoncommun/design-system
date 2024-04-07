@@ -1,8 +1,12 @@
 .bg--cream-50 {
+  --text-accent-color: var(--color-orange-550);
+
   background: var(--color-cream-50);
 }
 
 .bg--cream-100 {
+  --text-accent-color: var(--color-orange-550);
+
   background: var(--color-cream-100);
 }
 
