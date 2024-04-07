@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/commonhorizoncommun/design-system/compare/v0.4.0...v0.5.0) (2024-04-07)
+
+
+### Features
+
+* style people block (resolves [#32](https://github.com/commonhorizoncommun/design-system/issues/32)) ([#39](https://github.com/commonhorizoncommun/design-system/issues/39)) ([a700560](https://github.com/commonhorizoncommun/design-system/commit/a700560be4c883669af1ea5f497b3f394f5a634e))
+
 ## [0.4.0](https://github.com/commonhorizoncommun/design-system/compare/v0.3.0...v0.4.0) (2024-04-07)
 
 
