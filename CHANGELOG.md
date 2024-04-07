@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/commonhorizoncommun/design-system/compare/v0.2.0...v0.3.0) (2024-04-07)
+
+
+### Features
+
+* make colours responsive to background, replace sizes with vars ([#36](https://github.com/commonhorizoncommun/design-system/issues/36)) ([e945614](https://github.com/commonhorizoncommun/design-system/commit/e945614c98ed329ad602910a5a79cddac6cb6083))
+
+
+### Bug Fixes
+
+* clean up SVG roundel ([e3968b0](https://github.com/commonhorizoncommun/design-system/commit/e3968b0437b44158774b499a06bdd0f2fad90671))
+
 ## [0.2.0](https://github.com/commonhorizoncommun/design-system/compare/v0.1.2...v0.2.0) (2024-03-24)
 
 
