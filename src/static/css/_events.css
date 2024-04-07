@@ -1,13 +1,32 @@
+.events-container {
+  --flow-space: var(--size-12);
+}
+
+.events-container form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-10);
+}
+
+.events-container form .select {
+  max-width: 100%;
+}
+
+.events-container p {
+  width: 100%;
+}
+
 .events {
   display: flex;
   flex-direction: column;
   gap: var(--size-25) var(--size-10);
   margin-inline: auto;
+  max-width: 100%;
 }
 
 .event figure {
   aspect-ratio: 41 / 30;
-  max-width: var(--size-31);
+  max-width: 100%;
   overflow: hidden;
   width: 100%;
 }
@@ -50,14 +69,13 @@
   .events {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: var(--size-34);
   }
 }
 
 @media (width >= 90rem) {
-  .events {
+  .events,
+  .events-container form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: var(--size-36);
   }
 }
