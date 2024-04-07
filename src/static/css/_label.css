@@ -10,5 +10,5 @@ label.radio {
 
 label + .check_radio_field {
   display: block;
-  margin-block-start: 0.75rem;
+  margin-block-start: var(--size-4);
 }

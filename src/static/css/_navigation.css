@@ -2,31 +2,31 @@ nav {
   align-items: center;
   background-color: var(--color-purple-600);
   display: flex;
-  gap: 2.625rem;
-  height: 3.75rem;
+  gap: var(--size-13);
+  height: var(--size-17);
   justify-content: flex-start;
-  padding: 1.25rem;
+  padding: var(--size-7);
 }
 
 nav svg {
-  height: 1.875rem;
+  height: var(--size-10);
   width: auto;
 }
 
 nav [aria-expanded] {
   color: var(--color-tangerine-300);
-  margin-inline-end: -2.625rem;
+  margin-inline-end: var(--size-13);
 }
 
 nav [aria-expanded] .menu {
-  height: 1rem;
-  width: auto;
+  height: auto;
+  width: var(--size-8);
 }
 
 nav [aria-expanded] .close {
   display: none;
   height: auto;
-  width: 1.5788rem;
+  width: var(--size-8);
 }
 
 nav [aria-expanded]:hover,
@@ -68,12 +68,12 @@ nav .inner ul {
   background-color: var(--color-purple-600);
   display: none;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: var(--size-7);
   left: 0;
-  padding-block: 1.25rem;
-  padding-inline: 2.5rem;
+  padding-block: var(--size-7);
+  padding-inline: var(--size-13);
   position: absolute;
-  top: 3.75rem;
+  top: var(--size-17);
   width: 100vw;
 }
 
@@ -93,9 +93,9 @@ nav [aria-expanded='true'] + .inner ul {
 nav a {
   color: var(--color-cream-100);
   font-family: var(--font-display);
-  font-size: calc(16 / 16 * 1rem);
+  font-size: var(--step--1);
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: var(--tracking-0);
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
@@ -114,13 +114,13 @@ nav a[aria-current='page']::before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  bottom: 0.075rem;
+  bottom: var(--size-0);
   content: '';
   display: block;
-  height: 1rem;
-  left: -1.5rem;
+  height: var(--size-5);
+  left: calc(-1 * var(--size-8));
   position: absolute;
-  width: 1rem;
+  width: var(--size-5);
 }
 
 nav a[rel='home']:hover,
@@ -174,21 +174,21 @@ nav a[rel='home']:active:focus {
   /* TODO */
 }
 
-@media (min-width: 90rem) {
+@media (width >= 90rem) {
   nav {
     align-items: center;
     display: flex;
-    height: 6.25rem;
+    height: var(--size-25);
     justify-content: space-between;
-    padding-inline: 4.75rem;
+    padding-inline: var(--size-21);
   }
 
   nav .inner ul {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 4.125rem;
-    height: 6.25rem;
+    gap: var(--size-19);
+    height: var(--size-25);
     left: unset;
     padding-block: 0;
     padding-inline: 0;
@@ -198,7 +198,7 @@ nav a[rel='home']:active:focus {
   }
 
   nav svg {
-    height: 3.75rem;
+    height: var(--size-17);
   }
 
   nav [aria-expanded] {
@@ -208,16 +208,12 @@ nav a[rel='home']:active:focus {
   nav .inner {
     align-items: center;
     display: flex;
-    gap: 4.125rem;
-    height: 6.25rem;
+    gap: var(--size-19);
+    height: var(--size-25);
   }
 
   nav [aria-expanded='false'] + .inner ul {
     display: flex;
-  }
-
-  nav a {
-    font-size: calc(14 / 16 * 1rem);
   }
 
   nav > a[hreflang] {

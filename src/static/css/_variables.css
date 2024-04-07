@@ -17,34 +17,58 @@
   --color-white: #fff;
   --color-black: #000;
 
+  --tracking-0: 0.1em;
+  --tracking--1: -0.01em;
+
+  /* @link https://utopia.fyi/type/calculator?c=320,18,1.125,1440,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --step--2: clamp(0.72rem, 0.9371rem + -0.2413vi, 0.8889rem);
+  --step--1: clamp(0.9rem, 1.0286rem + -0.1429vi, 1rem);
+  --step-0: clamp(1.125rem, 1.125rem + 0vi, 1.125rem);
+  --step-1: clamp(1.2656rem, 1.2254rem + 0.2009vi, 1.4063rem);
+  --step-2: clamp(1.4238rem, 1.3284rem + 0.4771vi, 1.7578rem);
+  --step-3: clamp(1.6018rem, 1.4317rem + 0.8507vi, 2.1973rem);
+  --step-4: clamp(1.802rem, 1.5322rem + 1.3494vi, 2.7466rem);
+  --step-5: clamp(2.0273rem, 1.6256rem + 2.0085vi, 3.4332rem);
+
   /* Sizes */
-  --size-000: -0.5rem;
-  --size-00: -0.25rem;
+  --size-0: 0.075rem;
   --size-1: 0.25rem;
-  --size-2: 0.5rem;
-  --size-3: 1rem;
-  --size-4: 1.25rem;
-  --size-5: 1.5rem;
-  --size-6: 1.75rem;
-  --size-7: 2rem;
-  --size-8: 3rem;
-  --size-9: 4rem;
-  --size-10: 5rem;
-  --size-11: 7.5rem;
-  --size-12: 10rem;
-  --size-13: 15rem;
-  --size-14: 20rem;
-  --size-15: 30rem;
-  --size-fluid-1: clamp(0.5rem, 1vw, 1rem);
-  --size-fluid-2: clamp(1rem, 2vw, 1.5rem);
-  --size-fluid-3: clamp(1.5rem, 3vw, 2rem);
-  --size-fluid-4: clamp(2rem, 4vw, 3rem);
-  --size-fluid-5: clamp(4rem, 5vw, 5rem);
-  --size-fluid-6: clamp(5rem, 7vw, 7.5rem);
-  --size-fluid-7: clamp(7.5rem, 10vw, 10rem);
-  --size-fluid-8: clamp(10rem, 20vw, 15rem);
-  --size-fluid-9: clamp(15rem, 30vw, 20rem);
-  --size-fluid-10: clamp(20rem, 40vw, 30rem);
+  --size-2: 0.3125rem;
+  --size-3: 0.625rem;
+  --size-4: 0.75rem;
+  --size-5: 1rem;
+  --size-6: 1.125rem;
+  --size-7: 1.25rem;
+  --size-8: 1.5rem;
+  --size-9: 1.625rem;
+  --size-10: 1.875rem;
+  --size-11: 2.1875rem;
+  --size-12: 2.25rem;
+  --size-13: 2.625rem;
+  --size-14: 3rem;
+  --size-15: 3.125rem;
+  --size-16: 3.5625rem;
+  --size-17: 3.75rem;
+  --size-18: 4rem;
+  --size-19: 4.125rem;
+  --size-20: 4.375rem;
+  --size-21: 4.75rem;
+  --size-22: 5rem;
+  --size-23: 5.625rem;
+  --size-24: 5.9375rem;
+  --size-25: 6.25rem;
+  --size-26: 6.6875rem;
+  --size-27: 7.8125rem;
+  --size-28: 8rem;
+  --size-29: 11.4375rem;
+  --size-30: 23rem;
+  --size-31: 25.625rem;
+  --size-32: 31.25rem;
+  --size-33: 38.625rem;
+  --size-34: 53.125rem;
+  --size-35: 66.875rem;
+  --size-36: 80.625rem;
+  --size-37: 90rem;
 
   /* Fonts */
   --font-system: -apple-system, blinkmacsystemfont, avenir next, avenir,
@@ -56,4 +80,10 @@
   --font-sans: 'Inter Tight', -apple-system, blinkmacsystemfont, avenir next,
     avenir, segoe ui, helvetica neue, helvetica, cantarell, ubuntu, roboto, noto,
     arial, sans-serif;
+
+  /* Focus Ring */
+  --focus-ring: 0.125rem solid var(--color-orange-700);
+
+  /* Error Ring */
+  --error-ring: 0 0 0 0.125rem var(--color-orange-500);
 }

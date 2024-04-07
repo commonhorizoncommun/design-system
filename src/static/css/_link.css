@@ -1,7 +1,7 @@
 a {
   color: var(--color-orange-500);
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking--1);
   text-decoration: underline;
 }
 
@@ -24,18 +24,18 @@ a.cta,
 a.cta-minimal {
   align-items: center;
   display: inline-flex;
-  gap: 0.625rem;
+  gap: var(--size-3);
   position: relative;
 }
 
 a.cta {
   background: var(--color-orange-500);
-  border-radius: 1.5625rem;
+  border-radius: var(--size-8);
   color: var(--color-white);
   font-family: var(--font-display);
-  height: 3.125rem;
-  padding-inline: 1.875rem;
-  letter-spacing: 0.1em;
+  height: var(--size-15);
+  padding-inline: var(--size-10);
+  letter-spacing: var(--tracking-0);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -46,8 +46,8 @@ a.cta::after {
   mask-repeat: no-repeat;
   mask-size: contain;
   content: '';
-  height: 1.125rem;
-  width: 3.5625rem;
+  height: var(--size-6);
+  width: var(--size-16);
 }
 
 a.cta:hover,
@@ -62,6 +62,6 @@ a.cta-minimal::after {
   mask-repeat: no-repeat;
   mask-size: contain;
   content: '';
-  height: 1.125rem;
-  width: 3.5625rem;
+  height: var(--size-6);
+  width: var(--size-16);
 }

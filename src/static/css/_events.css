@@ -1,13 +1,13 @@
 .events {
   display: flex;
   flex-direction: column;
-  gap: 6.25rem 1.875rem;
+  gap: var(--size-25) var(--size-10);
   margin-inline: auto;
 }
 
 .event figure {
   aspect-ratio: 41 / 30;
-  max-width: 25.625rem;
+  max-width: var(--size-31);
   overflow: hidden;
   width: 100%;
 }
@@ -20,44 +20,44 @@
 .event h3 {
   color: var(--color-purple-600);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: var(--step-1);
   letter-spacing: 0;
-  margin-block-start: 2rem;
+  margin-block-start: var(--size-8);
   text-align: left;
   text-transform: unset;
 }
 
 .event .meta {
-  margin-block-start: 0.3125rem;
+  margin-block-start: var(--size-2);
 }
 
 .event .small {
-  margin-block-start: 0.625rem;
+  margin-block-start: var(--size-3);
 }
 
 .event .link {
-  margin-block-start: 1.25rem;
+  margin-block-start: var(--size-7);
 }
 
 .event a {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: var(--step--1);
   font-weight: 900;
   text-decoration: none;
 }
 
-@media (min-width: 60rem) {
+@media (width >= 60rem) {
   .events {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 53.125rem;
+    max-width: var(--size-34);
   }
 }
 
-@media (min-width: 90rem) {
+@media (width >= 90rem) {
   .events {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 80.625rem;
+    max-width: var(--size-36);
   }
 }

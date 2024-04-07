@@ -1,0 +1,6 @@
+<div class="flow">
+    {% for i in range(0, 37) -%}
+    <p>Size {{ i }}</p>
+    <div class="bg--purple-650" style="height:var(--size-{{ i }});width:var(--size-{{ i }});"></div>
+    {% endfor %}
+</div>
