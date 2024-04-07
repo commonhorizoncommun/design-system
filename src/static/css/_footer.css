@@ -1,10 +1,10 @@
 footer .inner {
   margin-inline: auto;
-  max-width: 66.875rem;
+  max-width: var(--size-35);
 }
 
 footer .stay-connected {
-  padding-block: 3.75rem 5.9375rem;
+  padding-block: 3.75rem var(--size-24);
 }
 
 footer .stay-connected h2 {
@@ -13,10 +13,10 @@ footer .stay-connected h2 {
 }
 
 footer .solidarity-statement {
-  --flow-space: 3rem;
+  --flow-space: var(--size-14);
 
   padding-block: 3.75rem;
-  padding-inline: 2.1875rem;
+  padding-inline: var(--size-11);
 }
 
 footer .solidarity-statement h2 {
@@ -27,33 +27,33 @@ footer .solidarity-statement h2 {
 footer nav {
   align-items: flex-start;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: var(--size-7);
   height: auto;
-  padding-block: 4.25rem;
-  padding-inline: 2.25rem;
+  padding-block: var(--size-20);
+  padding-inline: var(--size-13);
 }
 
 footer nav a[rel='home'] svg {
-  height: 7.5rem;
-  margin-block-end: 2.5rem;
+  height: var(--size-25);
+  margin-block-end: var(--size-13);
 }
 
 footer nav ul {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: var(--size-7);
   padding-inline-start: 0;
 }
 
 footer nav ul.social {
   flex-direction: row;
-  gap: 1.875rem;
-  margin-block-start: 1.75rem;
+  gap: var(--size-10);
+  margin-block-start: var(--size-10);
 }
 
 footer nav .h3 {
   color: inherit;
-  margin-block-start: 0.625rem;
+  margin-block-start: var(--size-3);
   text-align: start;
 }
 
@@ -61,18 +61,18 @@ footer nav a {
   color: var(--color-white);
   font-family: var(--font-base);
   font-weight: 500;
-  font-size: 1.125rem;
-  letter-spacing: -0.01em;
+  font-size: var(--step-0);
+  letter-spacing: var(--tracking--1);
   line-height: 1.5;
   text-decoration: underline;
-  text-underline-offset: 0.25rem;
+  text-underline-offset: var(--size-1);
   text-transform: none;
 }
 
 footer .copyright {
   color: var(--color-white);
-  padding-block: 2rem 2.25rem;
-  padding-inline: 2.25rem;
+  padding-block: var(--size-13);
+  padding-inline: var(--size-13);
   text-align: center;
 }
 
@@ -86,18 +86,18 @@ footer .copyright a:active {
 
 footer .copyright .credits {
   display: block;
-  font-size: 0.875rem;
-  margin-block-start: 1rem;
+  font-size: var(--step--2);
+  margin-block-start: var(--size-7);
 }
 
 @media (width >= 90rem) {
   footer .inner {
-    max-width: 66.875rem;
+    max-width: var(--size-35);
   }
 
   footer .navigation .inner,
   footer .copyright .inner {
-    max-width: 80.625rem;
+    max-width: var(--size-36);
   }
 
   footer .stay-connected {
@@ -118,7 +118,7 @@ footer .copyright .credits {
   }
 
   footer nav ul.social {
-    gap: 2rem;
+    gap: var(--size-13);
   }
 
   footer .copyright {

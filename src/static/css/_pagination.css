@@ -15,11 +15,11 @@
   color: var(--color-gray-500);
   display: flex;
   font-family: var(--font-sans);
-  font-size: 1.125rem;
+  font-size: var(--step-0);
   font-weight: 500;
   height: 3ch;
   justify-content: center;
-  letter-spacing: 0.1em;
+  letter-spacing: var(--tracking-0);
   line-height: 1.6;
   width: 3ch;
 }
@@ -62,7 +62,7 @@
 
 .pagination a[aria-current='page'] {
   text-decoration: underline;
-  text-underline-offset: 0.25rem;
+  text-underline-offset: var(--size-1);
 }
 
 .pagination a[aria-current='page']::before {

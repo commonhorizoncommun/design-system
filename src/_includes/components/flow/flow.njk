@@ -1,5 +1,5 @@
-<div class="flow">
+<div class="flow p-m{% if params.background %} bg--{{ params.background }}{% endif %}">
 {% for block in params.blocks %}
-    <{{ block.tag }}{% if block.class %} class="{{ block.class }}"{% endif %}>{{ block.text }}</{{ block.tag }}>
+    <{{ block.tag }}{% if block.class %} class="{{ block.class }}"{% endif %}>{{ block.text | safe }}</{{ block.tag }}>
 {% endfor %}
 </div>

@@ -5,8 +5,8 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   display: block;
-  height: 31.25rem;
-  padding-block-start: 4rem;
+  height: var(--size-32);
+  padding-block-start: var(--size-18);
   text-align: center;
 }
 
@@ -14,8 +14,8 @@
   color: var(--color-orange-500);
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: 0.1em;
+  font-size: var(--step-5);
+  letter-spacing: var(--tracking-0);
   line-height: 1.25;
   text-align: center;
   text-transform: uppercase;
@@ -23,17 +23,11 @@
 
 .home .banner p strong {
   display: block;
-  font-size: 2.1875rem;
   font-weight: 900;
 }
 
 @media (width>=60rem) {
-  .home .banner p,
-  .home .banner p strong {
-    font-size: 3.75rem;
-  }
-
   .home .banner {
-    height: 38.625rem;
+    height: var(--size-33);
   }
 }

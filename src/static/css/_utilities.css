@@ -32,8 +32,8 @@
 }
 
 /* Height */
-.height-fluid-8 {
-  height: var(--size-fluid-8);
+.height-8 {
+  height: var(--size-29);
 }
 
 /* Margin */
@@ -47,14 +47,14 @@
 }
 
 /* Width */
-.width-fluid-8 {
-  width: var(--size-fluid-8);
+.width-8 {
+  width: var(--size-29);
 }
 
 /* Prose */
 .prose {
   inline-size: 100%;
-  max-inline-size: 53.125rem;
+  max-inline-size: var(--size-34);
 }
 
 /* Flow */

@@ -7,11 +7,15 @@
 }
 
 .bg--orange-500 {
+  --text-accent-color: var(--color-white);
+
   background: var(--color-orange-500);
   color: var(--color-white);
 }
 
 .bg--orange-700 {
+  --text-accent-color: var(--color-white);
+
   background: var(--color-orange-700);
   color: var(--color-white);
 }
@@ -21,12 +25,23 @@
 }
 
 .bg--purple-650 {
+  --text-accent-color: var(--color-white);
+
   background: var(--color-purple-650);
   color: var(--color-white);
 }
 
 .bg--purple-700 {
+  --text-accent-color: var(--color-white);
+
   background: var(--color-purple-700);
+  color: var(--color-white);
+}
+
+.bg-gray-500 {
+  --text-accent-color: var(--color-white);
+
+  background: var(--color-gray-500);
   color: var(--color-white);
 }
 
@@ -37,14 +52,17 @@
 .bg--cream-150-to-purple-100 {
   --top: var(--color-cream-150);
   --bottom: var(--color-purple-100);
+  --text-accent-color: var(--color-orange-550);
 }
 
 .bg--purple-50-to-cream-150 {
   --top: var(--color-purple-50);
   --bottom: var(--color-cream-150);
+  --text-accent-color: var(--color-orange-550);
 }
 
 .bg--purple-50-to-cream-50 {
   --top: var(--color-purple-50);
   --bottom: var(--color-cream-50);
+  --text-accent-color: var(--color-orange-550);
 }

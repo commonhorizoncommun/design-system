@@ -30,7 +30,7 @@ module.exports = {
       title: 'Subheader',
       context: {
         level: 'p',
-        levelClass: 'subhead',
+        levelClass: 'subheader',
         text: 'We are a membership-based organization.'
       }
     },

@@ -2,6 +2,6 @@
   aspect-ratio: 35 / 18;
   margin-block-start: 5rem;
   margin-inline: auto;
-  max-width: 90rem;
+  max-width: var(--size-37);
   width: 100vw;
 }
