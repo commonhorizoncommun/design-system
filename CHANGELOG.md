@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/commonhorizoncommun/design-system/compare/v0.3.0...v0.4.0) (2024-04-07)
+
+
+### Features
+
+* finish styling events block ([#37](https://github.com/commonhorizoncommun/design-system/issues/37)) ([6873ae6](https://github.com/commonhorizoncommun/design-system/commit/6873ae62b56b31ae34203fc834c6e9e03fc74b2e))
+
 ## [0.3.0](https://github.com/commonhorizoncommun/design-system/compare/v0.2.0...v0.3.0) (2024-04-07)
 
 
