@@ -39,7 +39,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-unicorn": "51.0.1",
     "husky": "8.0.3",
-    "lightningcss": "1.21.5",
+    "lightningcss": "1.24.1",
     "lint-staged": "15.2.2",
     "markdownlint-cli2": "0.12.1",
     "markdownlint-config-fluid": "0.1.5",
