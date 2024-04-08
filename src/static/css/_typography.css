@@ -41,16 +41,20 @@ p.large {
   font-weight: 500;
   letter-spacing: var(--tracking--1);
   line-height: 1.6;
-  margin-inline: auto;
   margin-block-start: var(--size-14);
-  max-width: var(--size-33);
   padding-top: var(--size-14);
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
 }
 
-p.large::before {
+.column:only-child p.large {
+  margin-inline: auto;
+  max-width: var(--size-33);
+  text-align: center;
+}
+
+.column:only-child p.large::before {
   background-color: var(--text-accent-color, var(--color-purple-600));
   mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 14"><path fill="black" d="M15 7 0 0l5.524 7L0 14l15-7Z"/></svg>');
   mask-position: center;

@@ -25,16 +25,19 @@
   }
 
   .column:first-child .block-type-heading,
-  .column:first-child .block-type-text {
-    padding-inline-end: var(--size-8);
+  .column:first-child .block-type-text,
+  .column:first-child .block-type-call-to-action {
+    padding-inline-end: var(--size-25);
   }
 
   .column:last-child .block-type-heading,
-  .column:last-child .block-type-text {
-    padding-inline-start: var(--size-8);
+  .column:last-child .block-type-text,
+  .column:last-child .block-type-call-to-action {
+    padding-inline-start: var(--size-25);
   }
   .column:only-child .block-type-heading,
-  .column:only-child .block-type-text {
+  .column:only-child .block-type-text,
+  .column:only-child .block-type-call-to-action {
     padding-inline: 0;
   }
 }
