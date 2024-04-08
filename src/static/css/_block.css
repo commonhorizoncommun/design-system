@@ -3,12 +3,6 @@
   padding-block: var(--size-15);
 }
 
-.block-type-text,
-.block-type-heading,
-.block-type-call-to-action {
-  max-width: var(--size-32);
-}
-
 .blocks:has(.map),
 .blocks:has(.block-type-image:last-child) {
   padding-block-end: 0;
