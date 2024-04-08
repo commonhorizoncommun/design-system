@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.2](https://github.com/commonhorizoncommun/design-system/compare/v0.6.1...v0.6.2) (2024-04-08)
+
+
+### Bug Fixes
+
+* resolve block sizing issues and paragraph margin issues ([436a2fb](https://github.com/commonhorizoncommun/design-system/commit/436a2fb6af110c5332f02f16894a257542a30f35))
+
 ## [0.6.1](https://github.com/commonhorizoncommun/design-system/compare/v0.6.0...v0.6.1) (2024-04-08)
 
 
