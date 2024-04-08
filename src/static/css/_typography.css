@@ -41,16 +41,15 @@ p.large {
   font-weight: 500;
   letter-spacing: var(--tracking--1);
   line-height: 1.6;
-  margin-block-start: var(--size-14);
-  padding-top: var(--size-14);
   position: relative;
-  /* text-align: center; */
   width: 100%;
 }
 
 .column:only-child p.large {
+  margin-block-start: var(--size-14);
   margin-inline: auto;
   max-width: var(--size-33);
+  padding-block-start: var(--size-14);
   text-align: center;
 }
 

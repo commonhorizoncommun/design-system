@@ -19,14 +19,14 @@
 .block-type-image figure {
   align-items: center;
   display: flex;
-  flex-direction: column;
   height: 100%;
-  overflow-x: hidden;
+  justify-content: center;
 }
 
 .block-type-image img {
   height: 100%;
-  width: auto;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media (width >= 60rem) {
