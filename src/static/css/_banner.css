@@ -9,6 +9,7 @@
     var(--color-cream-150) 0%,
     var(--color-purple-100) 100%
   );
+  color: var(--color-orange-550);
   height: var(--size-26);
   padding-inline-start: var(--size-12);
   align-items: center;
