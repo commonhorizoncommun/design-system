@@ -17,7 +17,7 @@
 }
 
 .toc li {
-  padding-block: var(--size-5);
+  margin-block: var(--size-5) var(--size-16);
   width: 100%;
 }
 
