@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/commonhorizoncommun/design-system/compare/v0.6.0...v0.6.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* remove max-width from text blocks ([446b523](https://github.com/commonhorizoncommun/design-system/commit/446b5238060aaaf7b6183f1f733d0c26a14df0d1))
+
 ## [0.6.0](https://github.com/commonhorizoncommun/design-system/compare/v0.5.0...v0.6.0) (2024-04-08)
 
 
