@@ -11,6 +11,7 @@ section:has(.block-type-agenda) {
 
 .block-type-agenda ol {
   counter-reset: agenda;
+  padding-inline-start: 0;
 }
 
 .block-type-agenda li {
