@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.6.0](https://github.com/commonhorizoncommun/design-system/compare/v0.5.0...v0.6.0) (2024-04-08)
+
+
+### Features
+
+* add agenda styles (resolves [#41](https://github.com/commonhorizoncommun/design-system/issues/41)) ([#42](https://github.com/commonhorizoncommun/design-system/issues/42)) ([00eaea7](https://github.com/commonhorizoncommun/design-system/commit/00eaea7a0ad022a9ed73e34371ecdf0f7626c19b))
+* finish page navigation styles ([c0c3a64](https://github.com/commonhorizoncommun/design-system/commit/c0c3a6412762167ca0fdfefca74c3aeed7277d62))
+* responsive columns ([ef0bb42](https://github.com/commonhorizoncommun/design-system/commit/ef0bb4263077ebf6d64978f3d8269304f79807c7))
+
+
+### Bug Fixes
+
+* banner image text colour ([13dba3e](https://github.com/commonhorizoncommun/design-system/commit/13dba3ef5acf0782f1f37e6a6e43b7a11ad6968f))
+* page navigation sizing ([5e0426f](https://github.com/commonhorizoncommun/design-system/commit/5e0426f4eb6d66199f0895918ae2835ae715caef))
+* remove padding for agenda ([f0c2c46](https://github.com/commonhorizoncommun/design-system/commit/f0c2c4622ce02101ad26ac66f388d797377e9bac))
+* some responsive column adjustments ([6f968ce](https://github.com/commonhorizoncommun/design-system/commit/6f968ce6688a45a3e829e8ee450c9694a9e2ae36))
+
 ## [0.5.0](https://github.com/commonhorizoncommun/design-system/compare/v0.4.0...v0.5.0) (2024-04-07)
 
 
