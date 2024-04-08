@@ -16,10 +16,25 @@
 @media (width >= 60rem) {
   .grid {
     display: grid;
+    gap: 0;
     grid-template-columns: repeat(12, 1fr);
   }
 
   .column {
     grid-column: span var(--span);
+  }
+
+  .column:first-child .block-type-heading,
+  .column:first-child .block-type-text {
+    padding-inline-end: var(--size-8);
+  }
+
+  .column:last-child .block-type-heading,
+  .column:last-child .block-type-text {
+    padding-inline-start: var(--size-8);
+  }
+  .column:only-child .block-type-heading,
+  .column:only-child .block-type-text {
+    padding-inline: 0;
   }
 }

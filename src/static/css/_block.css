@@ -12,6 +12,18 @@
   padding-block-start: 0;
 }
 
+.block-type-image {
+  height: 100%;
+}
+
+.block-type-image figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 @media (width >= 60rem) {
   .blocks {
     padding-block: var(--size-25) var(--size-23);
