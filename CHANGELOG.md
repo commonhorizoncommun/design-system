@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.3](https://github.com/commonhorizoncommun/design-system/compare/v0.6.2...v0.6.3) (2024-04-13)
+
+
+### Bug Fixes
+
+* fix mobile formatting for page navigation ([5a3f3e1](https://github.com/commonhorizoncommun/design-system/commit/5a3f3e18a5c62cb4a93cde3dcc5c76ece7f8cd20))
+
 ## [0.6.2](https://github.com/commonhorizoncommun/design-system/compare/v0.6.1...v0.6.2) (2024-04-08)
 
 
