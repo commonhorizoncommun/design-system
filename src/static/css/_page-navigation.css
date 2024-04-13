@@ -17,7 +17,7 @@
 }
 
 .toc li {
-  margin-block: var(--size-5) var(--size-16);
+  padding-block: var(--size-5);
   width: 100%;
 }
 
@@ -26,12 +26,14 @@
 }
 
 .toc a {
+  align-items: center;
   color: var(--color-orange-500);
-  display: block;
+  display: flex;
   font-size: var(--step-1);
+  height: 100%;
+  justify-content: space-between;
   line-height: 1.24;
-  padding-bottom: var(--size-6);
-  position: relative;
+  width: 100%;
 }
 
 .toc a::after {
@@ -40,12 +42,11 @@
   mask-position: center;
   mask-repeat: no-repeat;
   mask-size: contain;
-  bottom: calc(-1 * var(--size-6));
   content: '';
   display: block;
   height: 10px;
-  left: 50%;
-  position: absolute;
+  right: 0;
+  /* position: absolute; */
   width: 17px;
 }
 
@@ -62,6 +63,8 @@
   }
 
   .toc li {
+    margin-block: var(--size-5);
+    padding-block: 0;
     width: auto;
   }
 
@@ -72,5 +75,13 @@
   .toc a {
     display: inline;
     font-size: var(--step-2);
+    padding-bottom: var(--size-6);
+    position: relative;
+  }
+
+  .toc a::after {
+    bottom: calc(-1 * var(--size-6));
+    position: absolute;
+    right: 50%;
   }
 }
