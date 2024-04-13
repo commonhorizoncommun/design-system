@@ -63,7 +63,7 @@
   }
 
   .toc li {
-    margin-block: var(--size-5);
+    margin-block: var(--size-5) var(--size-15);
     padding-block: 0;
     width: auto;
   }
