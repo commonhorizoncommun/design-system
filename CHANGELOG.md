@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.4](https://github.com/commonhorizoncommun/design-system/compare/v0.6.3...v0.6.4) (2024-04-13)
+
+
+### Bug Fixes
+
+* resolve bottom margin issue with page navigation ([589f41e](https://github.com/commonhorizoncommun/design-system/commit/589f41ea0b936fa8dc5d8c414028f9c9b3660530))
+
 ## [0.6.3](https://github.com/commonhorizoncommun/design-system/compare/v0.6.2...v0.6.3) (2024-04-13)
 
 
