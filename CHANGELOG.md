@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.6.5](https://github.com/commonhorizoncommun/design-system/compare/v0.6.4...v0.6.5) (2024-06-28)
+
+
+### Bug Fixes
+
+* remove form ([2697845](https://github.com/commonhorizoncommun/design-system/commit/26978455d05d284ce4af7eb652988852a0480070))
+* resolve issue with z-index ([#57](https://github.com/commonhorizoncommun/design-system/issues/57)) ([ef39c1b](https://github.com/commonhorizoncommun/design-system/commit/ef39c1b95ef8a0f90ccdbd4221953ad6ce918786))
+
 ## [0.6.4](https://github.com/commonhorizoncommun/design-system/compare/v0.6.3...v0.6.4) (2024-04-13)
 
 
