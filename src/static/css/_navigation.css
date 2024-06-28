@@ -75,6 +75,7 @@ nav .inner ul {
   position: absolute;
   top: var(--size-17);
   width: 100vw;
+  z-index: 1;
 }
 
 nav a[hreflang] {
